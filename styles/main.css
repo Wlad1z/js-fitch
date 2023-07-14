@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.small-device{
+    display: none;
+}
+.titul, .landing-3{
+    background: #F1F5F9;
+}
+.titul-header, .titul-content{
+    display: flex;
+    align-items: center;
+}
+.titul-header{
+    height: 82px;
+    margin-bottom: 44px;
+}
+.titul-header * {
+    display: inline-block;
+    margin: 0;
+    width: auto;
+}
+.titul-header h3{
+    font-weight: bold;
+    font-size: 28px;
+}
+.titul-header img{
+    height: 34px;
+    padding: 0;
+}
+.titul-content{
+    margin-bottom: 120px;
+}
+.titul-card-1{
+    height: 345px;
+}
+.titul-card-1 h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.titul-card-1 h3 span {
+    color: #1C7EF1;
+}
+.titul-card-1 button{
+    font-size: 18px;
+    margin-top: 10%;
+}
+.titul-card-2{
+    height: 470px;
+    padding: 24px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+.titul-card-2-image, .landing-2-content-img{
+    text-align: center;
+    position: relative;
+}
+.titul-card-2-image img, .landing-2-content-img img {
+    position: absolute;
+    left: 8%;
+}
+#img-1, #landing-2-img-1{
+    z-index: 3;
+}
+#img-2, #landing-2-img-2{
+    z-index: 2;
+}
+#img-3, #landing-2-img-3{
+    z-index: 1;
+}
+.titul-card-2-slider-text{
+    padding: 8% 3%;
+}
+.titul-card-2-slider-text div{
+    padding: 22px 0;
+    font-size: 12px;
+    margin-left: 22px;
+    box-sizing: border-box;
+    position: relative;
+}
+.titul-card-2-slider-text div hr{
+    margin: 2px 0;
+    width: 28%;
+    position: absolute;
+    border: none;
+    height: 2.5px;
+    background-color: gray;
+    border-radius: 3px;
+}
+#hr-1, #hr-2, #hr-3{
+    background-color: #1C7EF1;
+    opacity: 100;
+    width: 0;
+}
+.titul-card-2-slider-text div a{
+    color: #1C7EF1;
+}
+.titul-card-2-slider-text div span{
+    color: #1B2025;
+}
+.titul-card-2-slider-text div p{
+    color: #5D7285;
+    margin-top: 5px;
+}
+#calendar{
+    border-top: 1px solid #E5EBF0;
+    border-bottom: 1px solid #E5EBF0;
+}
+.landing-2, .landing-3, .landing-4{
+   padding-top: 80px;
+}
+.landing-2-content h1, .landing-3-content h1, .landing-4-content h1{
+    margin-bottom: 80px;
+    text-align: center;
+}
+.landing-2-content-text{
+    min-height: 600px;
+    max-height: 600px;
+}
+.landing-2-content-text div {
+    border-radius: 20px;
+    border: 2px solid #1C7EF1;
+    padding: 26px;
+    margin-bottom: 16px;
+}
+.landing-2-content-text div a{
+    font-size: 17px;
+    color: #1C7EF1;
+}
+.landing-2-content-text div ul {
+    margin:0;
+    color: #1C7EF1;
+}
+.hidden{
+    display:none;
+}
+.landing-2-content-text div ul li, .landing-2-content-text div p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.landing-2-content-text div ul li span{
+    color: black;
+    font-weight: 100;
+}
+.landing-2-content-img{
+    text-align: center;
+}
+.landing-2-content-img img{
+    height: 100%;
+}
+
+.video{
+    padding-bottom: 80px;
+    text-align: center;
+}
+.video-block{
+    display: inline-block;
+    width: 19%;
+}
+.video-block img {
+    width: 110%;
+}
+.landing-4-blocks{
+    text-align: center;
+    height: 400px;
+
+}
+.landing-4-blocks-card-1, .landing-4-blocks-card-2{
+    display: inline-block;
+    width: 40%;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 40px 32px;
+    transition: 500ms;
+    text-align: left;
+}
+.landing-4-blocks-card-1{
+    border: 2px solid #1C7EF1;
+    margin-top: 0;
+    padding: 62px 32px;
+}
+.landing-4-blocks div h2 {
+    margin-top: 20px;
+}
+.landing-4-blocks div span{
+    color: #5D7285;
+    margin-bottom: 10px;
+}
+.landing-4-blocks div button{
+    font-size: 15px;
+    width: 70%;
+    margin-top: 30px;
+    padding: 8px 16px;
+}
+.landing-4-blocks-card-2 button{
+    background: #CEEAFF;
+    border: #CEEAFF;
+    color: black;
+}
+
+
+.footer{
+    background: #F1F5F9;
+    padding: 24px 0;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content div{
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footer-content div h3{
+    margin: 0;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.footer-content div a{
+    color: gray;
+    margin: 5px;
+    font-size: 12px;
+    font-weight:lighter;
+}
+.footer-content div p{
+    margin: 0;
+    color: lightgray;
+}
+
+@media only screen and (max-device-width: 400px){
+    .big-device{
+        display: none;
+    }
+    .small-device{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}

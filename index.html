@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profeat</title>
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Первый лендинг -->
+    <div class="container-fluid titul ">
+        <div class="row justify-content-md-center">
+            <div class="col col-8">
+                <div class="row titul-header">
+                    <h3>Profeat</h3>
+                    <img src="static/Logo.svg" alt="Profeat.todo">
+                </div>
+                <div class="row titul-content">
+                    <div class="col col-6 titul-card-1">
+                        <div>
+                            <h3>Профит.<span>Ежедневник</span></h3>
+                            <h1>Одно бесплатное приложение для порядка в жизни</h1>
+                            <button class="btn btn-primary">Установить приложение</button>
+                        </div>
+                    </div>
+                    <div class="col col-6 titul-card-2 ">
+                        <div class="row justify-content-between">
+                            <div class="col col-4 titul-card-2-image">
+                                <img id="img-1" src="static/titul/planner.svg" alt="">
+                                <img id="img-2" src="static/titul/calendar.svg" alt="">
+                                <img id="img-3" src="static/titul/notes.svg" alt="">
+                            </div>
+                            <div class="col col-7 titul-card-2-slider-text">
+                                <div>
+                                    <a href="javascript:;" onclick="click_planer()">Задачник</a>
+                                    <span>для порядка в делах</span>
+                                    <hr>
+                                    <hr id="hr-1" class="progress">
+                                    <p>Заменяет: Google Задачи, Todolist, Tick-Tick, Microsoft To Do</p>
+                                </div>
+                                <div id="calendar" >
+                                    <a href="javascript:;" onclick="click_calendar()">Календарь</a>
+                                    <span>для порядка во встречах</span>
+                                    <hr>
+                                    <hr id="hr-2" class="progress">
+                                    <p>Заменяет: Google Календарь, календарь на телефоне, Any.do</p>
+                                </div>
+                                <div>
+                                    <a href="javascript:;" onclick="click_notes()">Заметки</a>
+                                    <span>для порядка в мыслях</span>
+                                    <hr>
+                                    <hr id="hr-3" class="progress">
+                                    <p>Заменяет: Заметки, «Избранное» и закладки в браузере</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid  landing-2" >
+        <div class="row justify-content-md-center">
+            <div class="col col-8 landing-2-content" >
+                <h1 id="h1">Простое и удобное приложение для ведения дел</h1>
+                <div class="row">
+                    <div class="col col-5 landing-2-content-text">
+                        <div>
+                            <a href="javascript:;">Задачник, с которым просто работать</a>
+                            <ul id="ul-1">
+                                <li><span>Создавайте задачи голосом: надиктуйте задачу, 
+                                    а мы расшифруем аудио и сохраним в виде текста</span></li>
+                                <li><span>Ставьте задачи прямо из Telegram: если задачу прислали вам в Telegram, перешлите сообщение 
+                                    в бот, ахалай-махалай, — задача в ежедневнике</span></li>
+                                <li><span>Поручайте задачи: подключите к работе коллег 
+                                    и партнеров. Для этого назначьте исполнителя 
+                                    и задача прилетит в его Профит.Ежедневник</span></li>
+                            </ul>
+                        </div> 
+                        <div>
+                            <a href="javascript:;">Календарь, которым удобно делиться</a>
+                            <ul id="ul-2" >
+                                <li><span>Отправляйте календарь коллегам и друзьям, чтобы договориваться о встречах за 5 минут, 
+                                    а не за час опросов и переписок</span></li>
+                                <li><span>Присылайте ссылку на календарь клиентам — они выберут свободный слот и запишутся на встречу самостоятельно</span></li>
+                                <li><span>Делитесь календарем спокойно: чем вы заняты известно только вам — остальные видят только свободные слоты</span></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <a href="javascript:;">Заметки, которые просто заметки</a>
+                            <p id="ul-3" >
+                                Есть вещи, которые прекрасны в своей простоте. Ложка, молоток, «Заметки» в Профит.Ежедневник — вот примеры таких вещей.
+                                <br>
+                                <br>
+                                В наших «Заметках» все как у всех — кроме одного. Они хранятся в одном приложении с вашим задачником и календарем.
+                                <br>
+                                <br>
+                                Вам не нужно придумывать куда записать мысль: в «Избранное» или куда-то еще — для всех дел, планов и мыслей есть одно удобное приложение.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col col-7 landing-2-content-img">
+                        <img id="landing-2-img-1" src="static/landing-2/planner.svg" alt="">
+                        <img id="landing-2-img-2" src="static/landing-2/calendar.svg" alt="">
+                        <img id="landing-2-img-3" src="static/landing-2/node.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid landing-3">
+        <div class="row justify-content-md-center">
+            <div class="col col-8 landing-3-content" >
+                <h1>Как привести дела в порядок</h1>
+                <div class="video">
+                    <div class="video-block">
+                        <img src="static/Frame 95.png" alt="">
+                    </div>
+                    <div class="video-block">
+                        <img src="static/Frame 95.png" alt="">
+                    </div>
+                    <div class="video-block">
+                        <img src="static/Frame 95.png" alt="">
+                    </div>
+                    <div class="video-block">
+                        <img src="static/Frame 95.png" alt="">
+                    </div>
+                    <div class="video-block">
+                        <img src="static/Frame 95.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid landing-4">
+        <div class="row justify-content-md-center">
+            <div class="col col-8 landing-4-content" >
+                <h1>Тарифы</h1>
+                <div class="landing-4-blocks">
+                    <div class="landing-4-blocks-card-1">
+                        <span>Для индивидуального пользования</span>
+                        <h2>Бесплатно</h2>
+                        <button class="btn btn-primary">Установить приложение</button>
+                    </div>
+                    <div class="landing-4-blocks-card-2">
+                        <span>Для корпоративного пользования</span>
+                        <h2>Не бесплатно</h2>
+                        <button class="btn btn-primary">Отправить запрос</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer">
+        <div class="row justify-content-md-center">
+            <div class="col col-8 footer-content" >
+                <div>
+                    <h3>Profeat</h3>
+                    <img src="static/Logo.svg" alt="Profeat.todo">
+                </div>
+                <div>
+                    <a href="#" class="link">Политика конфиденциальности</a>
+                    <a href="#" class="link">Условия пользования</a>
+                    <a href="#" class="link">Политика cookie файлов</a>
+                </div>
+                <div>
+                    <p>© Profeat 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
